@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OLDLEE 備份</title>
+<style>
+  body { font-family: system-ui, "Microsoft JhengHei", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; line-height: 1.7; color: #222; background: #fff; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<h1>OLDLEE 備份</h1>
+<p>這是內部使用的工廠管理系統的備份工具。它只做一件事：每天把系統資料加密後，存到使用者自己的 Google 雲端硬碟。</p>
+
+<h2 id="privacy">隱私權政策</h2>
+<ul>
+  <li><b>存取範圍</b>：只要求 <code>drive.file</code> 權限，只能讀寫本工具自己建立的備份檔案，看不到雲端硬碟裡的其他檔案。</li>
+  <li><b>資料用途</b>：只用來上傳、列出、下載和刪除過期的備份檔。</li>
+  <li><b>資料存放</b>：授權憑證只存在使用者自己的主機上，不會傳給任何第三方，也沒有其他伺服器。</li>
+  <li><b>加密</b>：備份在上傳前就已經加密，Google 和其他人都無法讀取內容。</li>
+  <li><b>撤銷</b>：隨時可以在 <a href="https://myaccount.google.com/permissions">Google 帳戶 › 第三方存取權</a> 移除本工具的存取權。</li>
+</ul>
+
+<h2>Privacy Policy (English)</h2>
+<p>OLDLEE Backup is an internal tool that uploads encrypted daily backups of a private factory management system to the user's own Google Drive. It requests only the <code>drive.file</code> scope, so it can access only the files it creates. Tokens are stored solely on the user's own machine and are never shared with third parties. Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+</body>
+</html>
